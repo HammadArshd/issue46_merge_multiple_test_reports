@@ -1,0 +1,56 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 341819,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeAfterHooks.deleteAllCookies()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Random Scenario in Test2",
+        "description": "",
+        "id": "verify-driver-is-initiated-properly-before-test2;random-scenario-in-test2",
+        "after": [
+          {
+            "result": {
+              "duration": 111014,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeAfterHooks.embedScreenshot()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 165973314,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "My Driver in Test2 is",
+            "match": {
+              "location": "Test2IT.driverForChromeIs()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "Verify Driver is Initiated Properly Before Test2",
+    "description": "",
+    "id": "verify-driver-is-initiated-properly-before-test2",
+    "keyword": "Feature",
+    "uri": "/Volumes/vOl2/projs/IdeaProjects/delmeTemoForCopare/naveenanimation20/issue46_merge_multiple_test_reports/src/test/resources/features/Test2.feature"
+  }
+]

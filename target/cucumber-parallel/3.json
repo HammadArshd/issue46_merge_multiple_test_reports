@@ -1,0 +1,74 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 555550,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeAfterHooks.deleteAllCookies()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Successful Sign In",
+        "description": "",
+        "id": "sign-in-feature-should-be-easy-and-friendly;successful-sign-in",
+        "after": [
+          {
+            "result": {
+              "duration": 103705,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeAfterHooks.embedScreenshot()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 158234007,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Hit the URL http://qa.dbserver/",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://qa.dbserver/",
+                  "offset": 12
+                }
+              ],
+              "location": "SignInIT.hitTheURLHttpQaDbserver(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 88196,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Choose to Sign In",
+            "match": {
+              "location": "SignInIT.chooseToSignIn()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Sign in feature should be easy and friendly",
+    "description": "This is an example additional feature description",
+    "id": "sign-in-feature-should-be-easy-and-friendly",
+    "keyword": "Feature",
+    "uri": "/Volumes/vOl2/projs/IdeaProjects/delmeTemoForCopare/naveenanimation20/issue46_merge_multiple_test_reports/src/test/resources/features/signin.feature"
+  }
+]

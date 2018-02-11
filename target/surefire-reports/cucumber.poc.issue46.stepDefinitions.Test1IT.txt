@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: cucumber.poc.issue46.stepDefinitions.Test1IT
+-------------------------------------------------------------------------------
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in cucumber.poc.issue46.stepDefinitions.Test1IT
